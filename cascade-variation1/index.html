@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <title>CSS Cascade Variation 6</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="box" id="wrapper-box"> <!-- specificity override -->
+            <div class="box ">
+                <div class="box first-box practice"> <!-- position override -->
+                    <h1 class="center">Practicing with CSS Cascade</h1>
+                    <p>This is the first paragraph, that will include the base style set for paragraphs.</p>
+                </div>
+            </div>
+            <div class="box second-box"> <!-- position override -->
+                <p id="specificity">This is the second paragraph, that will override the base style.</p>
+            </div>
+            <div class="box" id="last-box"> <!-- specificity override -->
+                <p>This is the third paragraph, which will override the specificity
+                    cascade using the keyword important. <!-- keyword override-->
+                </p>
+                <h2 class="center">CSS Cascade: Level Of Importance: </h2>
+                <ol>
+                    <li>!important - Keyword</li>
+                    <li>Specificity</li>
+                    <li style="color: pink;">Type</li> <!-- type override -->
+                </ol>
+            </div>
+        </div>
+    </body>
+</html>

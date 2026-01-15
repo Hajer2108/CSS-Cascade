@@ -1,0 +1,38 @@
+.box {
+    background-color: white; 
+    color: pink;
+
+    border: 2px solid black; 
+    margin: 10px; 
+    padding: 10px;
+}
+
+#outer-wrapper {
+    background-color: pink;
+}
+
+.inner-box { 
+    background-color: yellow;
+}
+
+.three { 
+    background-color: black;
+}
+
+.second-sibling { 
+    color: red;
+}
+
+#second { 
+    color: purple;
+    
+}
+
+p { 
+    text-align: center;
+    color: red !important;
+    
+}
+
+
+

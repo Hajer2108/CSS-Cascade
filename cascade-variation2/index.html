@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <title>CSS Cascade Variation 3</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="outer-wrapper" class="box"> <!-- id to override box rule -->
+            <div class="box">
+                <p>Number 1</p>
+                <div class="box inner-box three"> <!-- position override, threee to overide inner-box -->
+                    <p>Number 3</p>
+                </div>
+            </div>
+            <div class="box second-sibling" id="second">  <!-- sibling to override box, then id --> 
+                <p class="override">Number 2</p> <!-- override all paragraphs -->
+                <div class="box inner-box three color"> <
+                    <p>Number 4</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

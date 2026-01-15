@@ -1,0 +1,48 @@
+.box { 
+    background-color: yellow; 
+    color: grey;
+
+    border: 2px solid black; 
+    margin: 5px; 
+    padding: 5px; 
+}
+
+#wrapper-box { 
+    background-color: pink;
+    border: white; 
+}
+
+.first-box { 
+    background-color: red; 
+}
+
+.practice { 
+    background-color: white; 
+}
+
+h1 { 
+    color: black;
+}
+
+p { 
+    text-align: center; 
+    color: grey;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    color: red !important;
+}
+
+.second-box {
+    background-color: pink; 
+}
+
+#specificity { 
+    color: black;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
